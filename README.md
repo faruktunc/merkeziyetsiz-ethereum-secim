@@ -76,7 +76,7 @@ Bu proje, Ethereum Sepolia test ağı üzerinde çalışan merkeziyetsiz bir çe
 Yerel bir Ethereum düğümü başlatmak için:
 
 ```bash
-npx hardhat node --yes
+npx hardhat node 
 ```
 
 Bu komut, test ve geliştirme için kullanabileceğiniz yerel bir blok zinciri ağı başlatır ve birkaç test hesabı oluşturur.
