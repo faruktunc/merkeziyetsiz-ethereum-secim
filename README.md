@@ -64,7 +64,7 @@ Bu proje, Ethereum Sepolia test ağı üzerinde çalışan merkeziyetsiz bir çe
 4.  **`.env` dosyasını yapılandırın:**
     Proje ana dizininde `.env.example` dosyasını kopyalayarak `.env` adında yeni bir dosya oluşturun.
     ```bash
-    cp .env.example .env
+    cp .env.example .env # Windows için copy .env.example .env
     ```
     Sepolia test ağına dağıtım yapmak için `SEPOLIA_RPC_URL` (örneğin Alchemy veya Infura'dan) ve `PRIVATE_KEY` (MetaMask cüzdanınızdan dağıtım yapacak hesabın özel anahtarı) değerlerini `.env` dosyasına girin.
     **UYARI:** Özel anahtarınızı asla herkese açık bir repoda paylaşmayın!
