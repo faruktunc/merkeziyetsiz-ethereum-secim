@@ -17,7 +17,7 @@ Bu proje, Ethereum Sepolia test ağı üzerinde çalışan merkeziyetsiz bir çe
 - [Proje Yapısı](#proje-yapısı)
 - [Önemli Notlar](#önemli-notlar)
 - [Test Kılavuzu](#test-kılavuzu)
-- [Demo Video Hazırlama](#demo-video-hazırlama)
+
 
 ## Özellikler
 
@@ -260,10 +260,5 @@ Bu bölüm, projenin test edilmesi için adım adım talimatlar içerir.
    - MetaMask'i Sepolia ağına bağlayın.
    - Sepolia test ETH'sine sahip bir hesapla işlemleri gerçekleştirin.
 
-3. **Test Senaryoları:**
-   - Seçmen olarak oy verme
-   - Yetkisiz hesapla oy vermeyi deneme (reddedilmeli)
-   - Aynı hesapla ikinci kez oy vermeyi deneme (reddedilmeli)
-   - Seçim sonuçlarını görüntüleme
-   - Seçimi sonlandırma (sadece sözleşme sahibi)
+
 
