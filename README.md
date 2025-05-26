@@ -134,7 +134,10 @@ npx hardhat run scripts/deploy.js --network sepolia
 ```
 
 Dağıtım sonrası konsolda sözleşme adresini göreceksiniz. Bu adresi frontend uygulamasında (`frontend/src/App.jsx` dosyasındaki `electionAddress` değişkeni) Sepolia ağı için güncellemeniz gerekecektir.
-
+   - Frontend'deki sözleşme adresini güncelleyin (`frontend/src/App.jsx` içindeki `electionAddress`).
+   ```jsx
+   const electionAddress = "SEPOLIA_SOZLESME_ADRESI";
+   ```
 ## Proje Yapısı
 
 ```
@@ -252,10 +255,7 @@ Bu bölüm, projenin test edilmesi için adım adım talimatlar içerir.
      ```bash
      npx hardhat run scripts/deploy.js --network sepolia
      ```
-   - Frontend'deki sözleşme adresini güncelleyin (`frontend/src/App.jsx` içindeki `electionAddress`).
-   ```jsx
-   const electionAddress = "SEPOLIA_SOZLESME_ADRESI";
-   ```
+
    - Frontend uygulamasını başlatın.
    - MetaMask'i Sepolia ağına bağlayın.
    - Sepolia test ETH'sine sahip bir hesapla işlemleri gerçekleştirin.
