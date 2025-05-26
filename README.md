@@ -45,8 +45,8 @@ Bu proje, Ethereum Sepolia test ağı üzerinde çalışan merkeziyetsiz bir çe
 
 1.  **Projeyi klonlayın:**
     ```bash
-    git clone <proje-repo-urlsi>
-    cd blok-election-project
+    git clone https://github.com/faruktunc/merkeziyetsiz-ethereum-secim
+    cd merkeziyetsiz-ethereum-secim
     ```
 
 2.  **Ana dizindeki bağımlılıkları yükleyin:**

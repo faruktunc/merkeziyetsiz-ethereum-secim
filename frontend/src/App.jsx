@@ -208,7 +208,8 @@ const electionABI = [
   ];
 
 // Replace with your deployed contract address
-const electionAddress = '0x0E70a0Dd46E6e3Bb892e4A76C7cd1C73399501AC'; // Replace with your deployed contract address
+//const electionAddress = '0x0E70a0Dd46E6e3Bb892e4A76C7cd1C73399501AC'; 
+const electionAddress = 'SEPOLIA_SOZLESME_ADRESI'; // Replace with your deployed contract address
 
 function App() {
   const [provider, setProvider] = useState(null);
