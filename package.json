@@ -1,0 +1,18 @@
+{
+  "name": "blok-election-project",
+  "version": "1.0.0",
+  "description": "Ethereum Sepolia online voting application",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network sepolia"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "2.23.0"
+  },
+  "dependencies": {
+    "blok-election-project": "file:",
+    "dotenv": "^16.5.0"
+  }
+}

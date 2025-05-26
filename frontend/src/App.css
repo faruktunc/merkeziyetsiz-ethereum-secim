@@ -1,0 +1,179 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f7f6;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.App-header {
+  background-color: #2c3e50;
+  padding: 20px;
+  color: white;
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 30px;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.App-header button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.App-header button:hover {
+  background-color: #2980b9;
+}
+
+.message {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #e74c3c; /* Error by default */
+}
+
+.message.success {
+  background-color: #2ecc71;
+}
+
+.message.info {
+  background-color: #3498db;
+}
+
+.election-status {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #ecf0f1;
+  border-radius: 5px;
+  border: 1px solid #bdc3c7;
+}
+
+.election-status h2 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #2c3e50;
+}
+
+.candidates {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.candidate {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+  width: 45%;
+  border: 1px solid #e0e0e0;
+  display: flex; /* Added to enable flexbox layout */
+  flex-direction: column; /* Stacks items vertically */
+  align-items: center; /* Centers items horizontally */
+  text-align: center; /* Centers text content */
+}
+
+.candidate h2 {
+  margin-top: 0;
+  color: #34495e;
+}
+
+.candidate img {
+  max-width: 100%; /* Ensures image is not wider than its container */
+  width: 180px; /* Set fixed width for consistency */
+  height: 180px; /* Set fixed height for consistency */
+  object-fit: cover; /* Ensures image covers the area, maintaining aspect ratio */
+  border-radius: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+}
+
+.candidate p {
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+
+.candidate button {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.candidate button:hover {
+  background-color: #229954;
+}
+
+.candidate button:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+.controls {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.controls button {
+  background-color: #e67e22;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+  background-color: #d35400;
+}
+
+.controls .end-election-button {
+  background-color: #c0392b;
+}
+
+.controls .end-election-button:hover {
+  background-color: #a93226;
+}
+
+.controls button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .candidates {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .candidate {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
